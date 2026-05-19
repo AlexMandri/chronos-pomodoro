@@ -1,0 +1,16 @@
+.container-fluid{
+    /* background-color:purple; */
+    max-width: 98rem;
+}
+.container{
+    max-width: 98rem;
+    /* background: green; */
+    margin: 0 auto;
+ 
+}
+
+.content{
+    /* background:red; */
+    margin: 3.2rem;
+    text-align: center;
+}
