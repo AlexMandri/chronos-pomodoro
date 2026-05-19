@@ -13,10 +13,8 @@ export function App() {
             <Container>
                 <Heading>Menu</Heading>
             </Container>
-          
-
         </>
     );
 }
 // export default App;
-// export { App };
+// export { App }
