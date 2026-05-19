@@ -1,13 +1,48 @@
-import { Heading } from './components/Heading';
-
 import './styles/global.css';
 import './styles/theme.css';
 
 export function App() {
     return (
         <>
-            <Heading/>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, sit voluptas eaque quo repellendus tempore reprehenderit, eos et laudantium, corporis sapiente blanditiis eum? Dignissimos, saepe pariatur iusto vero inventore deserunt.</p>
+            <div className='container'>
+                <div className="content">
+                    <section>
+                       LOGO
+                    </section>
+                </div>
+            </div>
+            <div className='container'>
+                <div className="content">
+                    <section>
+                        MENU
+                    </section>
+                </div>
+            </div>
+            <div className='container'>
+                <div className="content">
+                    <section>
+                        FORM
+                    </section>
+                </div>
+            </div>
+            <div className='container'>
+                <div className="content">
+                    <section>
+                        FOOTER
+                    </section>
+                </div>
+            </div>
+           
+            {/* <div className='container-fluid'>
+                <div className="container">
+                    <div className="content">
+                        <section>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quibusdam ipsam esse soluta velit quae quasi iure. Ab eligendi adipisci magni ad, sequi ipsam? In molestias aut dolores! Quidem, ad.
+                        </section>
+                    </div>
+                </div>
+            </div> */}
+
         </>
     );
 }
