@@ -1,0 +1,7 @@
+.countdown {
+  font-size: clamp(8rem, 25vw, 16rem);
+  color: var(--primary);
+  font-weight: bold;
+  /* line-height: 1.2; */
+  /* background-color: rebeccapurple; */
+}
